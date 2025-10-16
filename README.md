@@ -1,7 +1,7 @@
 # XSparkyProject - Giant Kotlin Library
 
 ## English
-XSparkyProject is a comprehensive Kotlin library that combines 10 powerful features in one:
+XSparkyProject is a comprehensive Kotlin library that combines 11 powerful features in one:
 
 1. Data Processing & Analytics
 2. Networking Utilities
@@ -13,9 +13,10 @@ XSparkyProject is a comprehensive Kotlin library that combines 10 powerful featu
 8. Caching Utilities
 9. Configuration Management
 10. Logging Utilities
+11. Web Framework (NEW!)
 
 ## Русский
-XSparkyProject - это комплексная библиотека Kotlin, объединяющая 10 мощных функций в одной:
+XSparkyProject - это комплексная библиотека Kotlin, объединяющая 11 мощных функций в одной:
 
 1. Обработка данных и аналитика
 2. Сетевые утилиты
@@ -27,9 +28,10 @@ XSparkyProject - это комплексная библиотека Kotlin, об
 8. Утилиты кэширования
 9. Управление конфигурацией
 10. Утилиты логирования
+11. Веб фреймворк (НОВЫЙ!)
 
 ## Українська
-XSparkyProject - це комплексна бібліотека Kotlin, що поєднує 10 потужних функцій в одній:
+XSparkyProject - це комплексна бібліотека Kotlin, що поєднує 11 потужних функцій в одній:
 
 1. Обробка даних та аналітика
 2. Мережеві утиліти
@@ -41,6 +43,7 @@ XSparkyProject - це комплексна бібліотека Kotlin, що п�
 8. Утиліти кешування
 9. Управління конфігурацією
 10. Утиліти логування
+11. Веб фреймворк (НОВИЙ!)
 
 ## Build Status
 ![Build Status](https://img.shields.io/badge/build-success-brightgreen)

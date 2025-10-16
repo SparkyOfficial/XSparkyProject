@@ -16,6 +16,7 @@ import com.sparky.xsparkyproject.cache.SimpleCache
 import com.sparky.xsparkyproject.config.ConfigManager
 import com.sparky.xsparkyproject.logging.SimpleLogger
 import com.sparky.xsparkyproject.logging.LogLevel
+import com.sparky.xsparkyproject.web.WebFramework
 import kotlinx.coroutines.runBlocking
 import kotlin.test.Test
 import kotlin.test.assertEquals
@@ -112,9 +113,7 @@ class XSparkyProjectComprehensiveTest {
             mapOf("name" to "Alice", "age" to 30),
             mapOf("name" to "Bob", "age" to 25)
         ))
-        println("CSV Output: $csvString") // Debug output
         assertTrue(csvString.isNotEmpty())
-        // Remove all specific checks for now
     }
     
     @Test
@@ -171,9 +170,23 @@ class XSparkyProjectComprehensiveTest {
     }
     
     @Test
+    fun testWebFramework() {
+        // тестуємо створення веб сервера
+        val server = WebFramework.createServer()
+        assertNotNull(server)
+        assertEquals("Зупинено", server.getStatus())
+        
+        // тестуємо створення маршруту
+        val route = WebFramework.route("/test") { call ->
+            // тіло обробника
+        }
+        assertNotNull(route)
+        assertEquals("/test", route.path)
+    }
+    
+    @Test
     fun testLibraryInfo() {
         val info = XSparkyProject.getInfo()
         assertTrue(info.contains("XSparkyProject"))
-        // Remove all specific checks for now
     }
 }

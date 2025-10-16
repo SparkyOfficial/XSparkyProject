@@ -2,7 +2,7 @@ package com.sparky.xsparkyproject
 
 /**
  * основний клас для бібліотеки xsparkyproject
- * це об'єднання 7+ потужних інструментів в одному
+ * це об'єднання 10+ потужних інструментів в одному
  *
  * @author Андрій Будильников
  */
@@ -25,6 +25,7 @@ class XSparkyProject {
                 8. Caching Utilities (cache)
                 9. Configuration Management (config)
                 10. Logging Utilities (logging)
+                11. Web Framework (web) - NEW!
             """.trimIndent()
         }
     }
